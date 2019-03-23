@@ -92,9 +92,16 @@ const Index = () => (
             Dummy poker tournament showcases an app with complete CRUD operations.
           </ProjectCard>
           <ProjectCard
+            title="Adriel's Dev Blog"
+            link="https://adrielklein.github.io/"
+            bg="linear-gradient(to right, #060606 0%, #ff1616 100%)"
+          >
+            Personal reflections and lessons learned throughout my years of software development.
+          </ProjectCard>
+          <ProjectCard
             title="Marci McDonald"
             link="http://marci-mcdonald.com/"
-            bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
+            bg="linear-gradient(to right, #ffafbd 0%, #ffc3a0 100%)"
           >
             A wordpress website I built for Marci Mcdonald, an instructor who teaches yoga, aerial yoga, and gyrotonic.
           </ProjectCard>
