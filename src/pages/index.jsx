@@ -112,12 +112,13 @@ const Index = () => (
         <AboutHero>
           <Avatar src={avatar} alt="Adriel Klein" />
           <AboutSub>
-            I've always liked creating things with computers and finding engaging projects to work on.
+I've been into programming ever since taking an introductory computer science course in college.
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          Most recently I've been building apps to help marketers engage with prospective customers and provide marketing departments insight into the success of their marking campaigns. In previous jobs I've built apps to help accountants build custom financial reports to monitor the health of hedge funds.
-          I enjoy working in Agile environments on teams with breadths of skills and backgrounds. At the end of the day I think its all about the people. I love hearing customer feedback and adapting products to best fit the user.
+After a few weeks in the course, I decided this was the right step for me. Since then, I've built apps for accountants, marketers, ad traders, and most recently for college grads to help manage their debt and achieve financial well-being.
+
+I've spend the bulk of my career in agile software development teams focused on building user interfaces with React. At the end of the day I like building software to benefit people.
         </AboutDesc>
       </About>
       <Contact offset={4}>
