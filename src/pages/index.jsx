@@ -150,7 +150,6 @@ const Index = () => (
                 <a href="mailto:adrielmklein@gmail.com">Send me a message</a>
               </li>
               <li>
-                Find me on other platforms:{" "}
                 <a href="https://www.linkedin.com/in/adriel-klein-9388bb55/">
                   LinkedIn
                 </a>{" "}
