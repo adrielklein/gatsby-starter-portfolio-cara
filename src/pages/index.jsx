@@ -145,12 +145,24 @@ const Index = () => (
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            <a href="mailto:adrielmklein@gmail.com">Send me a message</a> or
-            find me on other platforms:{" "}
-            <a href="https://www.linkedin.com/in/adriel-klein-9388bb55/">
-              LinkedIn
-            </a>{" "}
-            & <a href="https://github.com/adrielklein/">Github</a>
+            <ul>
+              <li>
+                <a href="mailto:adrielmklein@gmail.com">Send me a message</a>
+              </li>
+              <li>
+                Find me on other platforms:{" "}
+                <a href="https://www.linkedin.com/in/adriel-klein-9388bb55/">
+                  LinkedIn
+                </a>{" "}
+                & <a href="https://github.com/adrielklein/">Github</a>
+              </li>
+              <li>
+                Check out my{" "}
+                <a href={"https://gitconnected.com/adrielklein/resume"}>
+                  resume
+                </a>
+              </li>
+            </ul>
           </ContactText>
         </Inner>
         <Footer>
