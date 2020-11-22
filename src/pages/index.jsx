@@ -71,8 +71,16 @@ const Index = () => (
         </Subtitle>
       </Hero>
       <Projects offset={1}>
-        <Title>Projects</Title>
+        <Title>Portfolio</Title>
         <ProjectsWrapper>
+        <ProjectCard
+            title="Dev Blog"
+            link="https://adrielklein.github.io/"
+            bg="linear-gradient(to right, #3BA723 0%, #D3D00C 100%)"
+          >
+            Personal reflections and lessons learned throughout my years of
+            software development.
+          </ProjectCard>
           <ProjectCard
             title="Laughter Engine"
             link="http://www.laughter-engine.com/"
@@ -81,36 +89,19 @@ const Index = () => (
             App that finds good jokes based on user ratings.
           </ProjectCard>
           <ProjectCard
-            title="Scrabble Word Finder"
-            link="http://scrabble-word-finder.herokuapp.com/"
-            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
-          >
-            Give your scrabble letters to Scrabble Word Finder and it will find
-            all the words you can form with them.
-          </ProjectCard>
-          <ProjectCard
-            title="Poker Tournament"
-            link="http://poker-tournament.herokuapp.com"
-            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
-          >
-            Dummy poker tournament showcases an app with complete CRUD
-            operations.
-          </ProjectCard>
-          <ProjectCard
-            title="Adriel's Dev Blog"
-            link="https://adrielklein.github.io/"
-            bg="linear-gradient(to right, #060606 0%, #ff1616 100%)"
-          >
-            Personal reflections and lessons learned throughout my years of
-            software development.
-          </ProjectCard>
-          <ProjectCard
             title="Marci McDonald"
             link="http://marci-mcdonald.com/"
-            bg="linear-gradient(to right, #ffafbd 0%, #ffc3a0 100%)"
+            bg="linear-gradient(to right, #ffafbd 0%, #FFAAAA 100%)"
           >
             A wordpress website I built for Marci Mcdonald, an instructor who
             teaches yoga, aerial yoga, and gyrotonic.
+          </ProjectCard>
+          <ProjectCard
+            title="Adventure Blog"
+            link="https://adrielklein.github.io/adventures"
+            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+          >
+            Personal Blog about cycling adventures
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
@@ -121,14 +112,13 @@ const Index = () => (
           <AboutSub>
             I first started programming during an introductory computer science
             course in college. A few weeks in the course, while sitting in my
-            dorm room I had a moment where I knew I would make a career out of
+            dorm room I had a moment where I knew I would build a career through 
             writing code.
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          Since then, I've built apps for accountants, marketers, ad traders,
-          and most recently for college grads to help manage their debt and
-          achieve financial well-being. I've spend the bulk of my career in
+          Since then, I've built apps for marketers, ad traders, and medical professionals
+          to name a few. I've spend the bulk of my career in
           agile software development teams focused on building user interfaces
           with React. I take pride in writing code that reads like poetry. I do
           my best to avoid code duplication, use proper abstractions, and design
@@ -137,8 +127,8 @@ const Index = () => (
         <AboutDesc>
           Aside from coding itself, I spend the bulk of my time coordinating
           with other people. Whether it's coming up with a plan of how to
-          structure an API, or gaining user feedback, I find coordinating with
-          others and working together is key to building great software.
+          structure an API, or gaining user feedback, I find building strong,
+          collaborative teams is key to building great software.
         </AboutDesc>
       </About>
       <Contact offset={4}>
