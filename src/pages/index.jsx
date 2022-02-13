@@ -89,14 +89,6 @@ const Index = () => (
             App that finds good jokes based on user ratings.
           </ProjectCard>
           <ProjectCard
-            title="Marci McDonald"
-            link="http://marci-mcdonald.com/"
-            bg="linear-gradient(to right, #ffafbd 0%, #FFAAAA 100%)"
-          >
-            A wordpress website I built for Marci Mcdonald, an instructor who
-            teaches yoga, aerial yoga, and gyrotonic.
-          </ProjectCard>
-          <ProjectCard
             title="Adventure Blog"
             link="https://adrielklein.github.io/adventures"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
