@@ -7,7 +7,7 @@ module.exports = {
   siteTitleAlt: "Adriel", // Alternative Site title for SEO
   siteTitleShort: "Adriel", // short_name for manifest
   siteHeadline:
-    "Engineer eager to add value to the world by bringing clever software visions to life.", // Headline for schema.org JSONLD
+    "Engineer eager to simplify lives by building delightful software solutions.", // Headline for schema.org JSONLD
   siteUrl: "https://adrielklein.com", // Domain of your site. No trailing slash!
   siteLanguage: "en", // Language Tag on <html> element
   siteLogo: "/screenshot.png", // Used for SEO and manifest

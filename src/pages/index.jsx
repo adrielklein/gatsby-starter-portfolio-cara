@@ -66,8 +66,7 @@ const Index = () => (
           Hello, <br /> I'm Adriel Klein.
         </BigTitle>
         <Subtitle>
-          I'm an engineer eager to add value to the world by bringing clever
-          software visions to life.
+          I'm an engineer focused on simplifying lives by building delightful software solutions..
         </Subtitle>
       </Hero>
       <Projects offset={1}>
